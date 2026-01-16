@@ -1,4 +1,4 @@
-"""Tests for the pixi_example package."""
+"""Tests for the pixi_template package."""
 
 import pixi_template
 

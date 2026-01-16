@@ -55,6 +55,10 @@ ignore = [
     "D203",     # confict: incorrect blank line before class (uses D211 instead)
     "D213",     # conflict: multi-line summary second line (uses D212 instead)
 ]
+exclude = [
+    "*.ipynb",
+    "**/*.ipynb",
+]
 
 [tool.ruff.lint.pydocstyle]
 convention = "numpy"

@@ -110,7 +110,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/tzdata-2025b-h78e105d_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/wheel-0.45.1-pyhd8ed1ab_1.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/zstd-1.5.7-hb78ec9c_6.conda
-      - pypi: https://files.pythonhosted.org/packages/d9/02/6944528886eb0466b5553c8dc8e5d0ebc156e0f5406848eacbbe91eda06a/ty-0.0.1a30-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+      - pypi: https://files.pythonhosted.org/packages/4b/77/13d0410827e4bc713ebb7fdaf6b3590b37dcb1b82e0a81717b65548f2442/ty-0.0.12-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: ./
 packages:
 - conda: https://conda.anaconda.org/conda-forge/linux-64/_libgcc_mutex-0.1-conda_forge.tar.bz2
@@ -597,7 +597,7 @@ packages:
 - pypi: ./
   name: pixi-template
   version: 0.2024.0
-  sha256: 00ac58532a2e99fd794190167328269c5ce933677dabf79bde1e1b4dd9950ebc
+  sha256: c62c0be7eec447328309e65679bccd78cba7e9d3e4e06d8f80def82fa292fb0d
   requires_python: '>=3.11'
   editable: true
 - conda: https://conda.anaconda.org/conda-forge/noarch/pluggy-1.6.0-pyhd8ed1ab_0.conda
@@ -808,10 +808,10 @@ packages:
   - pkg:pypi/tomli?source=compressed-mapping
   size: 20973
   timestamp: 1760014679845
-- pypi: https://files.pythonhosted.org/packages/d9/02/6944528886eb0466b5553c8dc8e5d0ebc156e0f5406848eacbbe91eda06a/ty-0.0.1a30-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+- pypi: https://files.pythonhosted.org/packages/4b/77/13d0410827e4bc713ebb7fdaf6b3590b37dcb1b82e0a81717b65548f2442/ty-0.0.12-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
   name: ty
-  version: 0.0.1a30
-  sha256: e172601687eeb2c4166da4491e51adb0dc797ca595359e266ef1d9da405ac5e5
+  version: 0.0.12
+  sha256: 2bb3a655bd869352e9a22938d707631ac9fbca1016242b1f6d132d78f347c851
   requires_python: '>=3.8'
 - conda: https://conda.anaconda.org/conda-forge/noarch/typing-3.10.0.0-pyhd8ed1ab_2.conda
   sha256: 92b084dfd77571be23ef84ad695bbea169e844821484b6d47d99f04ea4de32e8
