@@ -597,7 +597,7 @@ packages:
 - pypi: ./
   name: pixi-template
   version: 0.2024.0
-  sha256: c62c0be7eec447328309e65679bccd78cba7e9d3e4e06d8f80def82fa292fb0d
+  sha256: c8f3ce559cca3647fcc4e15023f13a39cbe97817f533c82675931a98365a3f4d
   requires_python: '>=3.11'
   editable: true
 - conda: https://conda.anaconda.org/conda-forge/noarch/pluggy-1.6.0-pyhd8ed1ab_0.conda
