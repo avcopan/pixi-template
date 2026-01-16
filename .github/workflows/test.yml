@@ -23,7 +23,7 @@ jobs:
           environments: dev
 
       - run: pixi run fmt
-      - run: pixi run lint
+      - run: pixi run lint --exit-non-zero-on-fix
       - run: pixi run types
       - run: pixi run test --cov --cov-report=xml
 
